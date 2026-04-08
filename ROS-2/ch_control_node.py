@@ -1,10 +1,10 @@
-# 8 Apr 2026, ROS2 ch_block node v.0.8 for a physical device ch_block
+# 8 Apr 2026, ROS2 channel_control node v.0.8 for a physical device channel_control
 # This node works as a receiver ROS2 node corresponding to
-# a physical device called ch_block
-# This node reads data from ROS2 topic /ch_block_data_udp
-# and sends this data via UDP packets to the ch_block device over Ethernet
-# Communication ROS2 -> ch_block is implemented in only one direction.
-# If needed, add ch_block -> ROS2 communication here.
+# a physical device called channel_control
+# This node reads data from ROS2 topic /ch_control_data
+# and sends this data via UDP packets to the channel_control device over Ethernet
+# Communication ROS2 -> channel_control is implemented in only one direction.
+# If needed, add channel_control -> ROS2 communication here.
 
 import socket
 import rclpy
