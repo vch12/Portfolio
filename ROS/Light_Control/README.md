@@ -1,4 +1,4 @@
-Description.
+Description.  
 This project is a disdtributed ROS-2 Humble -based setup of several computers serving the purpose of an intelligent smart house. The main (Station) computer works as a more powerful server. It processes images from a connected camera, makes control decisions, maintains connections with the outside world and maintains communication with the peripheral computers.
 Currently, there is one peripheral computer, the Raspberry. A connection between the Station and the Raspberry is established through a router less Wi-Fi network. This project serves as a simple yet applied foundation. The Raspberry has connected two independent electrical circuits, a "day unit" and a "night unit". These two units are connected to two Raspberry GPIO pins (set as Outputs only) via optocouplers. The Raspberry also has three inputs, using three GPIO pins (set as Inputs/Buttons only). The input periphery is also connected to the Raspberry via optocouplers. There are three GPIO input pins which work in a binary mode (can be "pressed" or "released", "1" or "0").
 
